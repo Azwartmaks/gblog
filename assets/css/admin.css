@@ -1,0 +1,36 @@
+.bg-grey {
+	background: #eee;
+}
+
+.bg-white {
+	background: #fff;
+}
+
+.wrap {
+	background: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	min-height: 900px;
+}
+
+.login-form {
+	border: 1px solid #ddd;
+	margin: 200px auto 0;
+	max-width: 300px;
+	padding: 30px;
+}
+
+.header {
+	background: #292929;
+	color: #fff;
+	margin-bottom: 50px;
+	padding: 20px 0;
+}
+.admin-header-link {
+	color: #fff;
+	margin-right: 15px;
+}
+.admin-header-link:hover,
+.admin-header-link:active {
+	color: #fff;
+}
