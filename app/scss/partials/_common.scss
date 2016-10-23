@@ -1,0 +1,75 @@
+//* use Reasonable System for CSS Stylesheet Structure (http://rscss.io) *//
+
+html {
+	font-size: 14px;
+}
+
+body {
+	color: $base-text-color;
+	font-family: $font-open-sans-400;
+	line-height: 1.65rem;
+}
+
+a {
+	color: $base-blue-color;
+	text-decoration: none;
+}
+
+.section {
+	padding: 30px 0;
+}
+
+.main {
+	position: relative;
+	z-index: 2;
+}
+.banner-container {
+	height: 530px;
+	overflow: hidden;
+	> .banner {
+		width: 100%;
+	}
+}
+
+.bg-white {
+	background: $bg-white-color;
+}
+.bg-grey {
+	background: $bg-grey-color;
+}
+
+.p-t-0 {
+	padding-top: 0;
+}
+
+.play-games-unit {
+	overflow: hidden;
+	margin: 30px 0;
+}
+.play-games-descr {
+	margin-left: 37%;
+	> .title {
+		font-size: 22px;
+		color: $base-black-color;
+		margin: 10px 0 20px;
+		font-family: $font-oswald-400;
+		text-transform: uppercase;
+	}
+}
+.play-games-icon {
+	float: left;
+	width: 35%;
+	> .icon {
+		display: inline-block;
+		
+		width: 100%;
+		stroke-width: 0;
+		stroke: $base-black-color;
+		fill: $base-black-color;
+	}
+}
+
+.footer-inner {
+	font-size: 10px;
+	padding: 20px 0;
+}

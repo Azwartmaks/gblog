@@ -1,0 +1,58 @@
+%post-common-style {
+	box-sizing: border-box;
+	margin: 2rem 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.post-vertical {
+	@extend %post-common-style;
+	> .thumb {
+		display: block;
+		width: 100%;
+	}
+}
+.post-thumbnail {
+	position: absolute;
+	height: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding-top: 56%;
+	overflow: hidden;
+	> .thumb {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: auto;
+		width: 100%;
+	}
+}
+.post-title {
+	padding-top: 56%;
+	> .link {
+		display: block;
+		color: $base-black-color;
+		font-family: $font-oswald-500;
+		font-size: 1.75rem;
+		line-height: 2.4rem;
+		padding: 1.4rem 0 0.7rem;
+		text-decoration: none;
+	}
+	> .note {
+		display: block;
+	}
+	> .descr {
+		
+	}
+}
+
+.post-meta-data {
+	color: $base-grey-color;
+	display: block;
+	font-size: 0.7rem;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	line-height: 1.4rem;
+	text-transform: uppercase;
+}
