@@ -1,0 +1,21 @@
+/* Open Sans */
+$font-open-sans-300: 'Open-Sans-300';
+$font-open-sans-400: 'Open-Sans-400';
+$font-open-sans-600: 'Open-Sans-600';
+$font-open-sans-700: 'Open-Sans-700';
+
+@include font-face($font-open-sans-300, 'opensans-300-normal',300);
+@include font-face($font-open-sans-400, 'opensans-400-normal',400);
+@include font-face($font-open-sans-600, 'opensans-600-normal',600);
+@include font-face($font-open-sans-700, 'opensans-700-normal',700);
+
+/* Oswald */
+$font-oswald-300: 'Oswald-300';
+$font-oswald-400: 'Oswald-400';
+$font-oswald-500: 'Oswald-500';
+$font-oswald-600: 'Oswald-600';
+
+@include font-face($font-oswald-300, 'oswald-300-normal',300);
+@include font-face($font-oswald-400, 'oswald-400-normal',400);
+@include font-face($font-oswald-500, 'oswald-500-normal',500);
+@include font-face($font-oswald-600, 'oswald-600-normal',600);
