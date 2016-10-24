@@ -2,7 +2,6 @@
 	position: relative;
 	z-index: 1;
 }
-
 .header-site-title {
 	color: $base-black-color;
 	display: inline-block;
@@ -13,13 +12,11 @@
 	text-transform: uppercase;
 	vertical-align: top;
 }
-
 .menu-list {
-	/*background: #e6e6e6;*/
 	overflow: hidden;
 	text-align: right;
 }
-.menu-item {
+.menu-list-item {
 	display: inline-block;
 	> .title {
 		color: $base-black-color;
@@ -32,15 +29,3 @@
 		vertical-align: top;
 	}
 }
-/*
-.menu-item {
-	display: inline-block;
-	> .title {
-		color: $base-black-color;
-		display: block;
-		font-family: $font-open-sans-700;
-		line-height: 1.4rem;
-		padding: 1rem 20px;
-		text-decoration: none;
-	}
-}*/

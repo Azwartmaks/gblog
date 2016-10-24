@@ -1,0 +1,25 @@
+.own-games-unit {
+	overflow: hidden;
+	margin: 30px 0;
+}
+.own-games-descr {
+	margin-left: 37%;
+	> .title {
+		color: $base-black-color;
+		font-family: $font-oswald-400;
+		font-size: 22px;
+		margin: 10px 0 20px;
+		text-transform: uppercase;
+	}
+}
+.own-games-icon {
+	float: left;
+	width: 35%;
+	> .icon {
+		display: inline-block;
+		stroke-width: 0;
+		stroke: $base-black-color;
+		fill: $base-black-color;
+		width: 100%;
+	}
+}
