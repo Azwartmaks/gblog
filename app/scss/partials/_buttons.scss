@@ -1,0 +1,38 @@
+.button-box {
+	padding: 30px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.btn {
+	border-radius: 0;
+	border: 2px solid $base-black-color;
+	color: $base-black-color;
+	cursor: pointer;
+	display: inline-block;
+	font-family: $font-oswald-400;
+	font-size: 1.8rem;
+	padding: 10px 25px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+	&.-with-strip {
+		position: relative;
+	}
+	&.-with-strip:before,
+	&.-with-strip:after {
+		border-top: 1px solid $base-black-color;
+		bottom: 0;
+		content: "";
+		height: 50%;
+		position: absolute;
+		width: 90%;
+	}
+	&.-with-strip:before {
+		left: -110%;
+	}
+	&.-with-strip:after {
+		right: -110%;
+	}
+}

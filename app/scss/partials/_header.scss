@@ -1,0 +1,31 @@
+.header {
+	position: relative;
+	z-index: 1;
+}
+.header-site-title {
+	color: $base-black-color;
+	display: inline-block;
+	font-family: $font-oswald-600;
+	font-size: 1.75rem;
+	line-height: 2.8rem;
+	padding: 1.8rem 0;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.menu-list {
+	overflow: hidden;
+	text-align: right;
+}
+.menu-list-item {
+	display: inline-block;
+	> .title {
+		color: $base-black-color;
+		display: inline-block;
+		font-family: $font-oswald-600;
+		font-size: 1.4rem;
+		line-height: 2.8rem;
+		padding: 1.8rem 0 1.8rem 1.8rem;
+		text-transform: uppercase;
+		vertical-align: top;
+	}
+}

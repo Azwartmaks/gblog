@@ -1,0 +1,62 @@
+.entry-title-box {
+	background: $bg-grey-light-color;
+	margin-bottom: -80px;
+	padding: 30px 0 7rem;
+}
+.entry-title {
+	color: $base-black-color;
+	font-size: 3rem;
+	font-family: $font-oswald-600;
+	line-height: 1.2;
+	white-space: nowrap;
+}
+.section-title {
+	background: resolve("xbox-icon.png") no-repeat center bottom;
+	color: $base-black-color;
+	padding: 30px 30px 40px;
+	position: relative;
+	margin-bottom: 30px;
+	&.-no-bg {
+		background-image: none;
+		padding-bottom: 30px;
+	}
+	&.-no-bg:before,
+	&.-no-bg:after {
+		display: none;
+	}
+	&:before {
+		border-top: 1px solid $base-black-color;
+		bottom: 8px;
+		content: "";
+		left: 30px;
+		position: absolute;
+		width: 43%;
+	}
+	&:after {
+		border-top: 1px solid $base-black-color;
+		bottom: 8px;
+		content: "";
+		position: absolute;
+		right: 30px;
+		width: 43%;
+	}
+	& + .section-subtitle {
+		margin-top: -20px;
+	}
+	> .heading {
+		font-size: 40px;
+		font-family: $font-oswald-500;
+		line-height: 1.2;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+
+.section-subtitle {
+	color: $base-black-color;
+	font-size: 18px;
+	margin-bottom: 30px;
+	text-align: center;
+	
+}
+

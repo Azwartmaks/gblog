@@ -1,0 +1,40 @@
+.category-widget {
+	position: relative;
+	overflow: hidden;
+	margin: 15px 0;
+}
+.category-media {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	> .pic {
+		display: block;
+		height: auto;
+		margin: auto;
+		width: 100%;
+		transform: scale(1);
+		transition: all 400ms ease-in-out 0s;
+	}
+	> .pic:hover {
+		transform: scale(1.3);
+	}
+}
+.category-body {
+	position: absolute;
+	overflow: hidden;
+	margin-top: -25px;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	z-index: 2;
+}
+.category-title {
+	color: $base-white-color;
+	font-size: 40px;
+	font-family: $font-oswald-600;
+	line-height: 50px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.9);
+	text-transform: uppercase;
+	white-space: nowrap;
+}

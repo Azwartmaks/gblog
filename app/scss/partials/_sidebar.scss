@@ -1,0 +1,57 @@
+.aside {
+	position: relative;
+	z-index: 2;
+}
+.aside-menu-section {
+	background: $bg-white-color;
+	padding: 30px 15px;
+	margin-bottom: 30px;
+}
+
+.aside-menu-title {
+	color: $base-black-color;
+	font-family: $font-oswald-400;
+	font-size: 2rem;
+	margin-bottom: 30px;
+}
+
+.aside-menu-list {
+	> .item {
+		margin-top: 10px;
+	}
+	> .item:first-child {
+		margin-top: 0;
+	}
+}
+
+.aside-pagination {
+	background: $bg-white-color;
+	margin-bottom: 30px;
+}
+
+.pagination-item {
+	border-top: 1px solid $bg-grey-color;
+	display: block;
+	padding: 1.4rem 20px;
+	&:hover {
+		text-decoration: none;
+	}
+	&:first-child {
+		border-top: none;
+	}
+	> .sub {
+		color: #999;
+		display: block;
+		font-size: 0.7rem;
+		font-family: $font-oswald-600;
+		letter-spacing: 0.05em;
+		line-height: 1.4rem;
+		text-transform: uppercase;
+	}
+	> .title {
+		color: $base-black-color;
+		display: block;
+		font-size: 1.25rem;
+		line-height: 1.4rem;
+	}
+}
