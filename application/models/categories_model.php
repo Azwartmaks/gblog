@@ -16,10 +16,11 @@ class Categories_model extends CI_Model
 		$query = $this->db->get('gblog_categories');
 		return $query->num_rows();
 	}
-	public function getCategories($start) 
+
+	public function getCategories($start, $per_page=50) 
 	{
 		$this->db->order_by('id','desc');
-		$query = $this->db->get('gblog_categories',50,$start);
+		$query = $this->db->get('gblog_categories',$per_page,$start);
 		return $query->result_array();
 	}
 

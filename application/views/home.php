@@ -1,53 +1,4 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-=======
-﻿<!DOCTYPE html>
->>>>>>> back
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="dist/css/main.css">
-	</head>
-	<body>
-	
-		<!-- HEADER -->
-		<header class="header">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="header-site-title">Game zone</div>
-					</div>
-					<div class="col-md-9">
-						<div class="header-actions"></div>
-						<nav class="header-nav">
-							<ul class="menu-list">
-								<li class="menu-list-item">
-									<a href="#" class="title">Главная</a>
-								</li>
-								<li class="menu-list-item">
-									<a href="#" class="title">Игры по категориям</a>
-								</li>
-								<li class="menu-list-item">
-									<a href="#" class="title">Новости</a>
-								</li>
-								<li class="menu-list-item">
-									<a href="#" class="title">О нас</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-			
-			<!-- banner -->
-			<div class="banner-container">
-				<img class='banner' src="/dist/images/banner-main.jpg" alt="">
-			</div>
-		</header>
-		
-		<!-- MAIN -->
+<!-- MAIN -->
 		<main class="index-main">
 			
 			<!-- GAME CATEGORY -->
@@ -424,8 +375,3 @@
 				</symbol>
 			</defs>
 		</svg>
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-		<!--<script src="dist/js/main.min.js"></script>-->
-	</body>
-</html>
