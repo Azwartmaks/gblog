@@ -15,6 +15,7 @@ class Genre  extends CI_Controller
 
 		$this->pagination->initialize($config);
 		
+		$data['page'] = 'genres';
 		$data['genres'] = $this->articles_model->getArticles($this->uri->segment(3));
 		$this->load->view('genre', $data);
 	}
