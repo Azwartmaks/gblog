@@ -5,37 +5,34 @@
 }
 .btn {
 	border-radius: 0;
+	border: 2px solid $base-black-color;
 	color: $base-black-color;
 	cursor: pointer;
 	display: inline-block;
-	border: 2px solid $base-black-color;
 	font-family: $font-oswald-400;
 	font-size: 1.8rem;
 	padding: 10px 25px;
 	text-align: center;
+	text-transform: uppercase;
 	transition: all 0.2s ease-in-out 0s;
 	vertical-align: middle;
-	text-transform: uppercase;
 	white-space: nowrap;
 	&.-with-strip {
 		position: relative;
 	}
-	&.-with-strip:before {
-		border-top: 1px solid $base-black-color;
-		height: 50%;
-		content: "";
-		position: absolute;
-		left: -110%;
-		bottom: 0;
-		width: 100%;
-	}
+	&.-with-strip:before,
 	&.-with-strip:after {
 		border-top: 1px solid $base-black-color;
-		height: 50%;
-		right: -110%;
-		content: "";
-		position: absolute;
 		bottom: 0;
-		width: 100%;
+		content: "";
+		height: 50%;
+		position: absolute;
+		width: 90%;
+	}
+	&.-with-strip:before {
+		left: -110%;
+	}
+	&.-with-strip:after {
+		right: -110%;
 	}
 }
